@@ -4,6 +4,8 @@
 Произведения делятся на категории: «tc1», «tc2"
 Список категорий может быть расширен администратором.
 
+![yamdb_workflow](https://github.com/qazar42/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 ### Как запустить проект:
 
 ```
