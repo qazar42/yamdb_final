@@ -1,6 +1,5 @@
 import uuid
 from datetime import date
-
 from api_yamdb.settings import DEFAULT_ROLE
 
 from django.contrib.auth.models import AbstractUser
