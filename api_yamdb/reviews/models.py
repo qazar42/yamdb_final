@@ -1,13 +1,14 @@
 import uuid
 from datetime import date
 
+from api_yamdb.settings import DEFAULT_ROLE
+
 from django.contrib.auth.models import AbstractUser
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 from django.db.models import (CharField, CheckConstraint, Q, TextField,
                               UniqueConstraint)
 
-from api_yamdb.settings import DEFAULT_ROLE
 
 class User(AbstractUser):
     role = CharField(
