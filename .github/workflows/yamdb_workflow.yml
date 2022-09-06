@@ -45,6 +45,7 @@ jobs:
         with:
           push: true
           tags: qazar42/final:latest
+          file: ./api_yamdb/DockerFile
 
   deploy:
     runs-on: ubuntu-latest
