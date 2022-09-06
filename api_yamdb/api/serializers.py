@@ -1,12 +1,16 @@
 from api_yamdb.settings import (CONFORMATION_CODE_MSG_TITLE, DEFAULT_ROLE,
-                                EMAIL_HOST_USER)
+                                EMAIL_HOST_USER
+                                )
+
 from django.contrib.auth import get_user_model
 from django.core.mail import send_mail
 from django.db.models import Sum
 from django.shortcuts import get_object_or_404
+
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 from rest_framework.fields import EmailField
+
 from reviews.models import Category, Comment, Genre, Review, Title, TitleGenre
 
 User = get_user_model()
