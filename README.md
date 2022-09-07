@@ -6,6 +6,8 @@
 
 ![yamdb_workflow](https://github.com/qazar42/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+http://84.252.140.25/redoc/
+
 ### Как запустить проект:
 
 ```
